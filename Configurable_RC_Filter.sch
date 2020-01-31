@@ -6910,7 +6910,7 @@ Part Number: HA-522</description>
 <part name="C3" library="SparkFun-Capacitors" deviceset="10NF" device="-0603-50V-10%" value="10nF"/>
 <part name="C4" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="1.0uF"/>
 <part name="C5" library="SparkFun-Capacitors" deviceset="10UF" device="-0603-6.3V-20%" value="10uF"/>
-<part name="C6" library="SparkFun-Capacitors" deviceset="1000UF" device="-RADIAL-5MM-25V-20%" value="1mF"/>
+<part name="C6" library="SparkFun-Capacitors" deviceset="1000UF" device="-RADIAL-5MM-25V-20%-NO-SILK" value="1000UF-RADIAL-5MM-25V-20%-NO-SILK"/>
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="VDDA" device=""/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
@@ -6920,7 +6920,7 @@ Part Number: HA-522</description>
 <part name="C9" library="SparkFun-Capacitors" deviceset="10NF" device="-0603-50V-10%" value="10nF"/>
 <part name="C10" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="1.0uF"/>
 <part name="C11" library="SparkFun-Capacitors" deviceset="10UF" device="-0603-6.3V-20%" value="10uF"/>
-<part name="C12" library="SparkFun-Capacitors" deviceset="1000UF" device="-RADIAL-5MM-25V-20%" value="1mF"/>
+<part name="C12" library="SparkFun-Capacitors" deviceset="1000UF" device="-RADIAL-5MM-25V-20%-NO-SILK" value="1000UF-RADIAL-5MM-25V-20%-NO-SILK"/>
 <part name="SW4" library="SparkFun-Switches" deviceset="DIP-06" device=""/>
 <part name="R7" library="SparkFun-Resistors" deviceset="10MOHM" device="-0603-1/10W-5%" value="10M"/>
 <part name="R8" library="SparkFun-Resistors" deviceset="100KOHM" device="-0603-1/10W-1%" value="100k"/>
@@ -7015,7 +7015,6 @@ Part Number: HA-522</description>
 </instance>
 <instance part="C6" gate="G$1" x="106.68" y="101.6" smashed="yes">
 <attribute name="NAME" x="107.696" y="102.235" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="107.696" y="97.409" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="GND1" gate="1" x="93.98" y="88.9" smashed="yes">
 <attribute name="VALUE" x="93.98" y="88.646" size="1.778" layer="96" align="top-center"/>
@@ -7052,7 +7051,6 @@ Part Number: HA-522</description>
 </instance>
 <instance part="C12" gate="G$1" x="172.72" y="144.78" smashed="yes" rot="R90">
 <attribute name="NAME" x="170.815" y="141.224" size="1.778" layer="95" font="vector" rot="R270"/>
-<attribute name="VALUE" x="176.149" y="141.224" size="1.778" layer="96" font="vector" rot="R270"/>
 </instance>
 <instance part="SW4" gate="G$1" x="205.74" y="134.62" smashed="yes" rot="R180">
 <attribute name="NAME" x="212.852" y="139.7" size="1.778" layer="95" font="vector" rot="R270"/>

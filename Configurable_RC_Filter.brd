@@ -210,6 +210,10 @@
 <wire x1="24.13" y1="14.605" x2="24.13" y2="15.875" width="0.2032" layer="22"/>
 <text x="10.16" y="0.635" size="1.778" layer="16" font="vector" ratio="15" rot="MR0">X01</text>
 <text x="25.4" y="-8.89" size="1.778" layer="51" font="vector" ratio="10">Andy England</text>
+<text x="46.355" y="26.543" size="1.778" layer="21" font="vector" ratio="15">+</text>
+<text x="0.635" y="26.543" size="1.778" layer="21" font="vector" ratio="15">+</text>
+<text x="0.635" y="35.433" size="1.778" layer="21" font="vector" ratio="15">-</text>
+<text x="46.355" y="35.433" size="1.778" layer="21" font="vector" ratio="15">-</text>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -467,16 +471,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
-<package name="CPOL-RADIAL-5MM-10MM">
+<package name="CPOL-RADIAL-5MM-10MM-NS">
 <description>5 mm spaced PTHs in 10 mm diameter silk ring</description>
-<wire x1="-1.905" y1="2.54" x2="-3.175" y2="2.54" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="5" width="0.2032" layer="21"/>
+<wire x1="-1.905" y1="2.54" x2="-3.175" y2="2.54" width="0.2032" layer="51"/>
+<circle x="0" y="0" radius="5" width="0.2032" layer="51"/>
 <pad name="-" x="-2.5" y="0" drill="0.9" diameter="1.9304"/>
 <pad name="+" x="2.5" y="0" drill="0.9" diameter="1.9304" shape="square"/>
 <text x="0" y="-5.207" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
 <text x="0" y="5.207" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<wire x1="3.175" y1="2.54" x2="1.905" y2="2.54" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="3.175" x2="2.54" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="2.54" x2="1.905" y2="2.54" width="0.2032" layer="51"/>
+<wire x1="2.54" y1="3.175" x2="2.54" y2="1.905" width="0.2032" layer="51"/>
 </package>
 </packages>
 </library>
@@ -5611,10 +5615,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CAP-11015" x="5.08" y="27.94" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="5.08" y="28.702" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="C6" library="SparkFun-Capacitors" package="CPOL-RADIAL-5MM-10MM" value="1mF" x="1.27" y="31.75" smashed="yes" rot="R270">
+<element name="C6" library="SparkFun-Capacitors" package="CPOL-RADIAL-5MM-10MM-NS" value="1000UF-RADIAL-5MM-25V-20%-NO-SILK" x="1.27" y="31.75" smashed="yes" rot="R270">
 <attribute name="NAME" x="6.477" y="31.75" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-09538" x="1.27" y="31.75" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="-3.937" y="31.75" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="SW3" library="SparkFun-Switches" package="DIPSWITCH-06-SMD" value="DIP-06" x="35.56" y="31.75" smashed="yes" rot="R270">
 <attribute name="NAME" x="33.02" y="40.64" size="0.8128" layer="25"/>
@@ -5646,10 +5648,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CAP-11015" x="58.42" y="29.21" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="43.18" y="28.702" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="C12" library="SparkFun-Capacitors" package="CPOL-RADIAL-5MM-10MM" value="1mF" x="46.99" y="31.75" smashed="yes" rot="R270">
+<element name="C12" library="SparkFun-Capacitors" package="CPOL-RADIAL-5MM-10MM-NS" value="1000UF-RADIAL-5MM-25V-20%-NO-SILK" x="46.99" y="31.75" smashed="yes" rot="R270">
 <attribute name="NAME" x="52.197" y="31.75" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-09538" x="30.48" y="43.18" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="41.783" y="31.75" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="SW4" library="SparkFun-Switches" package="DIPSWITCH-06-SMD" value="DIP-06" x="35.56" y="13.97" smashed="yes" rot="R270">
 <attribute name="NAME" x="35.56" y="24.13" size="0.8128" layer="25"/>
@@ -5699,8 +5699,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$6" library="buzzard_labels (7)" package="GND0" value="" x="27.94" y="1.524" smashed="yes" rot="MR90"/>
 <element name="U$7" library="buzzard_labels (7)" package="VIN1" value="" x="20.32" y="1.524" smashed="yes" rot="R90"/>
 <element name="U$8" library="buzzard_labels (7)" package="VIN1" value="" x="20.32" y="1.524" smashed="yes" rot="MR90"/>
-<element name="U$9" library="buzzard_labels (7)" package="VMID3" value="" x="22.86" y="1.143" smashed="yes" rot="R90"/>
-<element name="U$10" library="buzzard_labels (7)" package="VMID3" value="" x="22.86" y="1.143" smashed="yes" rot="MR90"/>
+<element name="U$9" library="buzzard_labels (7)" package="VMID3" value="" x="22.86" y="1.27" smashed="yes" rot="R90"/>
+<element name="U$10" library="buzzard_labels (7)" package="VMID3" value="" x="22.86" y="1.27" smashed="yes" rot="MR90"/>
 <element name="U$11" library="buzzard_labels (8)" package="VOUT3" value="" x="25.4" y="1.397" smashed="yes" rot="R90"/>
 <element name="U$12" library="buzzard_labels (8)" package="VOUT3" value="" x="25.4" y="1.397" smashed="yes" rot="MR90"/>
 <element name="U$13" library="buzzard_labels (6)" package="10_NF11" value="" x="21.336" y="33.02" smashed="yes"/>
@@ -5888,6 +5888,30 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="2.921" y="27.94" extent="1-16" drill="0.381"/>
 <contactref element="R13" pad="1"/>
 <contactref element="C14" pad="2"/>
+<wire x1="44.03" y1="17.78" x2="45.339" y2="17.78" width="0" layer="19" extent="1-1"/>
+<wire x1="45.339" y1="15.24" x2="45.339" y2="17.78" width="0" layer="19" extent="1-1"/>
+<wire x1="44.03" y1="15.24" x2="45.339" y2="15.24" width="0" layer="19" extent="1-1"/>
+<wire x1="45.339" y1="12.7" x2="45.339" y2="15.24" width="0" layer="19" extent="1-1"/>
+<wire x1="44.03" y1="12.7" x2="45.339" y2="12.7" width="0" layer="19" extent="1-1"/>
+<wire x1="46.99" y1="13.12" x2="45.339" y2="12.7" width="0" layer="19" extent="1-1"/>
+<wire x1="45.339" y1="10.16" x2="45.339" y2="12.7" width="0" layer="19" extent="1-1"/>
+<wire x1="44.03" y1="10.16" x2="45.339" y2="10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="46.99" y1="10.16" x2="45.339" y2="10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="45.339" y1="7.62" x2="45.339" y2="10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="44.03" y1="7.62" x2="45.339" y2="7.62" width="0" layer="19" extent="1-1"/>
+<wire x1="27.94" y1="1.27" x2="44.03" y2="7.62" width="0" layer="19" extent="1-1"/>
+<wire x1="4.23" y1="27.94" x2="27.94" y2="1.27" width="0" layer="19" extent="1-1"/>
+<wire x1="2.921" y1="27.94" x2="4.23" y2="27.94" width="0" layer="19" extent="1-1"/>
+<wire x1="4.23" y1="30.48" x2="4.23" y2="27.94" width="0" layer="19" extent="1-1"/>
+<wire x1="2.921" y1="30.48" x2="4.23" y2="30.48" width="0" layer="19" extent="1-1"/>
+<wire x1="4.23" y1="33.02" x2="4.23" y2="30.48" width="0" layer="19" extent="1-1"/>
+<wire x1="2.921" y1="33.02" x2="4.23" y2="33.02" width="0" layer="19" extent="1-1"/>
+<wire x1="1.27" y1="32.6" x2="2.921" y2="33.02" width="0" layer="19" extent="1-1"/>
+<wire x1="1.27" y1="34.25" x2="1.27" y2="32.6" width="0" layer="19" extent="1-1"/>
+<wire x1="2.921" y1="35.56" x2="1.27" y2="34.25" width="0" layer="19" extent="1-1"/>
+<wire x1="4.23" y1="35.56" x2="2.921" y2="35.56" width="0" layer="19" extent="1-1"/>
+<wire x1="4.23" y1="38.1" x2="4.23" y2="35.56" width="0" layer="19" extent="1-1"/>
+<wire x1="2.921" y1="38.1" x2="4.23" y2="38.1" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VDDA">
 <contactref element="R4" pad="P$2"/>
