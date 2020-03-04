@@ -1,7 +1,7 @@
 SparkX Configurable RC Filter
 ===================================================================
 
-[![SparkX Configurable RC Filter](https://cdn.sparkfun.com/assets/parts/1/5/1/1/6/16392-Configurable_RC_Filter-01.jpg)](https://cdn.sparkfun.com/assets/parts/1/5/1/1/6/16392-Configurable_RC_Filter-01.jpg)
+[![SparkX Configurabel RC Filter](https://cdn.sparkfun.com/assets/parts/1/5/1/1/6/16392-Configurable_RC_Filter_a-01.jpg)](https://cdn.sparkfun.com/assets/parts/1/5/1/1/6/16392-Configurable_RC_Filter_a-01.jpg)
 
 [*SparkX Configurable RC Filter (SPX-16392)*](https://www.sparkfun.com/products/16392)
 
