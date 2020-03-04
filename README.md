@@ -26,4 +26,4 @@ Distributed as-is; no warranty is given.
 
 - Your friends at SparkFun.
 
--<COLLABORATION CREDIT>_
+_<COLLABORATION CREDIT>_
